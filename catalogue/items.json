@@ -1,0 +1,721 @@
+{
+  "version": "catalogue-v1",
+  "_note": "volume_m3 and box_equivalents are SEED ESTIMATES to be calibrated against completed jobs. Do not cite these as measured figures in the business plan until calibrated. Record the calibration in the decision log.",
+  "weight_classes": [
+    "light",
+    "medium",
+    "heavy",
+    "two_person",
+    "specialist",
+    "n/a"
+  ],
+  "item_count": 69,
+  "items": [
+    {
+      "id": "sofa_2seat",
+      "name": "2-seat sofa",
+      "category": "living",
+      "volume_m3": 0.9,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "sofa_3seat",
+      "name": "3-seat sofa",
+      "category": "living",
+      "volume_m3": 1.3,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "sofa_corner",
+      "name": "Corner / L-shaped sofa",
+      "category": "living",
+      "volume_m3": 2.2,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "sofa_bed",
+      "name": "Sofa bed",
+      "category": "living",
+      "volume_m3": 1.5,
+      "weight_class": "heavy",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "armchair",
+      "name": "Armchair",
+      "category": "living",
+      "volume_m3": 0.6,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "footstool",
+      "name": "Footstool / pouffe",
+      "category": "living",
+      "volume_m3": 0.15,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "coffee_table",
+      "name": "Coffee table",
+      "category": "living",
+      "volume_m3": 0.3,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "tv_stand",
+      "name": "TV stand / media unit",
+      "category": "living",
+      "volume_m3": 0.4,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "tv_small",
+      "name": "TV up to 43 inch",
+      "category": "living",
+      "volume_m3": 0.15,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "tv_large",
+      "name": "TV over 43 inch",
+      "category": "living",
+      "volume_m3": 0.3,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "bookcase_small",
+      "name": "Bookcase, small",
+      "category": "living",
+      "volume_m3": 0.4,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 3
+    },
+    {
+      "id": "bookcase_large",
+      "name": "Bookcase, large",
+      "category": "living",
+      "volume_m3": 0.8,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 6
+    },
+    {
+      "id": "display_cabinet",
+      "name": "Display cabinet",
+      "category": "living",
+      "volume_m3": 0.9,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": true,
+      "box_equivalents": 5
+    },
+    {
+      "id": "sideboard",
+      "name": "Sideboard",
+      "category": "dining",
+      "volume_m3": 0.9,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 6
+    },
+    {
+      "id": "rug_rolled",
+      "name": "Rug, rolled",
+      "category": "living",
+      "volume_m3": 0.15,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "floor_lamp",
+      "name": "Floor lamp",
+      "category": "living",
+      "volume_m3": 0.15,
+      "weight_class": "light",
+      "disassembly": true,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "piano_upright",
+      "name": "Upright piano",
+      "category": "living",
+      "volume_m3": 1.5,
+      "weight_class": "specialist",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "bed_single_frame",
+      "name": "Single bed frame",
+      "category": "bedroom",
+      "volume_m3": 0.5,
+      "weight_class": "medium",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "bed_double_frame",
+      "name": "Double bed frame",
+      "category": "bedroom",
+      "volume_m3": 0.8,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "bed_king_frame",
+      "name": "King bed frame",
+      "category": "bedroom",
+      "volume_m3": 1.0,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "mattress_single",
+      "name": "Mattress, single",
+      "category": "bedroom",
+      "volume_m3": 0.35,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "mattress_double",
+      "name": "Mattress, double",
+      "category": "bedroom",
+      "volume_m3": 0.55,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "mattress_king",
+      "name": "Mattress, king",
+      "category": "bedroom",
+      "volume_m3": 0.7,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "wardrobe_2door",
+      "name": "Wardrobe, 2-door",
+      "category": "bedroom",
+      "volume_m3": 1.2,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 6
+    },
+    {
+      "id": "wardrobe_3door",
+      "name": "Wardrobe, 3-door",
+      "category": "bedroom",
+      "volume_m3": 1.8,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 9
+    },
+    {
+      "id": "wardrobe_4door",
+      "name": "Wardrobe, 4-door",
+      "category": "bedroom",
+      "volume_m3": 2.4,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 12
+    },
+    {
+      "id": "chest_drawers_small",
+      "name": "Chest of drawers, small",
+      "category": "bedroom",
+      "volume_m3": 0.35,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 3
+    },
+    {
+      "id": "chest_drawers_large",
+      "name": "Chest of drawers, large",
+      "category": "bedroom",
+      "volume_m3": 0.6,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 5
+    },
+    {
+      "id": "bedside_table",
+      "name": "Bedside table",
+      "category": "bedroom",
+      "volume_m3": 0.15,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 1
+    },
+    {
+      "id": "dressing_table",
+      "name": "Dressing table",
+      "category": "bedroom",
+      "volume_m3": 0.5,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": true,
+      "box_equivalents": 3
+    },
+    {
+      "id": "mirror_large",
+      "name": "Mirror, large / freestanding",
+      "category": "bedroom",
+      "volume_m3": 0.15,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "cot",
+      "name": "Cot / child's bed",
+      "category": "bedroom",
+      "volume_m3": 0.5,
+      "weight_class": "medium",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "fridge_freezer",
+      "name": "Fridge freezer, full height",
+      "category": "kitchen",
+      "volume_m3": 0.8,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "fridge_under_counter",
+      "name": "Fridge, under counter",
+      "category": "kitchen",
+      "volume_m3": 0.3,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "freezer_upright",
+      "name": "Freezer, upright",
+      "category": "kitchen",
+      "volume_m3": 0.6,
+      "weight_class": "two_person",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "washing_machine",
+      "name": "Washing machine",
+      "category": "kitchen",
+      "volume_m3": 0.35,
+      "weight_class": "heavy",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "tumble_dryer",
+      "name": "Tumble dryer",
+      "category": "kitchen",
+      "volume_m3": 0.35,
+      "weight_class": "heavy",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "dishwasher",
+      "name": "Dishwasher",
+      "category": "kitchen",
+      "volume_m3": 0.35,
+      "weight_class": "heavy",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "cooker_freestanding",
+      "name": "Cooker, freestanding",
+      "category": "kitchen",
+      "volume_m3": 0.5,
+      "weight_class": "heavy",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "microwave",
+      "name": "Microwave",
+      "category": "kitchen",
+      "volume_m3": 0.1,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "kitchen_units_run",
+      "name": "Kitchen units, run of shelving",
+      "category": "kitchen",
+      "volume_m3": 0.0,
+      "weight_class": "n/a",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 8
+    },
+    {
+      "id": "dining_table_small",
+      "name": "Dining table, 4-seat",
+      "category": "dining",
+      "volume_m3": 0.6,
+      "weight_class": "medium",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "dining_table_large",
+      "name": "Dining table, 6-8 seat",
+      "category": "dining",
+      "volume_m3": 1.0,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "dining_chair",
+      "name": "Dining chair",
+      "category": "dining",
+      "volume_m3": 0.15,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "desk_small",
+      "name": "Desk, small",
+      "category": "office",
+      "volume_m3": 0.4,
+      "weight_class": "medium",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 2
+    },
+    {
+      "id": "desk_large",
+      "name": "Desk, large / corner",
+      "category": "office",
+      "volume_m3": 0.7,
+      "weight_class": "two_person",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 3
+    },
+    {
+      "id": "office_chair",
+      "name": "Office chair",
+      "category": "office",
+      "volume_m3": 0.4,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "filing_cabinet",
+      "name": "Filing cabinet",
+      "category": "office",
+      "volume_m3": 0.4,
+      "weight_class": "heavy",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 3
+    },
+    {
+      "id": "monitor",
+      "name": "Computer monitor",
+      "category": "office",
+      "volume_m3": 0.1,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "pc_tower",
+      "name": "PC tower",
+      "category": "office",
+      "volume_m3": 0.1,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "shelving_unit",
+      "name": "Shelving unit, freestanding",
+      "category": "storage",
+      "volume_m3": 0.4,
+      "weight_class": "medium",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": true,
+      "box_equivalents": 4
+    },
+    {
+      "id": "box_standard",
+      "name": "Box, standard",
+      "category": "boxes",
+      "volume_m3": 0.06,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "box_large",
+      "name": "Box, large",
+      "category": "boxes",
+      "volume_m3": 0.09,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "box_wardrobe",
+      "name": "Wardrobe box",
+      "category": "boxes",
+      "volume_m3": 0.25,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "suitcase",
+      "name": "Suitcase",
+      "category": "boxes",
+      "volume_m3": 0.1,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "bicycle",
+      "name": "Bicycle",
+      "category": "garage",
+      "volume_m3": 0.3,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "exercise_bike",
+      "name": "Exercise bike",
+      "category": "garage",
+      "volume_m3": 0.4,
+      "weight_class": "heavy",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "treadmill",
+      "name": "Treadmill",
+      "category": "garage",
+      "volume_m3": 0.8,
+      "weight_class": "specialist",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "lawnmower",
+      "name": "Lawnmower",
+      "category": "garden",
+      "volume_m3": 0.2,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "bbq",
+      "name": "BBQ",
+      "category": "garden",
+      "volume_m3": 0.3,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "garden_table",
+      "name": "Garden table",
+      "category": "garden",
+      "volume_m3": 0.5,
+      "weight_class": "medium",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "garden_chair",
+      "name": "Garden chair",
+      "category": "garden",
+      "volume_m3": 0.15,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "toolbox",
+      "name": "Toolbox / tool chest",
+      "category": "garage",
+      "volume_m3": 0.1,
+      "weight_class": "heavy",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "ladder",
+      "name": "Ladder",
+      "category": "garage",
+      "volume_m3": 0.15,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "pushchair",
+      "name": "Pushchair / pram",
+      "category": "misc",
+      "volume_m3": 0.25,
+      "weight_class": "medium",
+      "disassembly": true,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "ironing_board",
+      "name": "Ironing board",
+      "category": "misc",
+      "volume_m3": 0.08,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    },
+    {
+      "id": "plant_large",
+      "name": "Large houseplant",
+      "category": "misc",
+      "volume_m3": 0.2,
+      "weight_class": "medium",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "artwork_framed",
+      "name": "Framed artwork / picture",
+      "category": "misc",
+      "volume_m3": 0.1,
+      "weight_class": "light",
+      "disassembly": false,
+      "fragile": true,
+      "is_storage": false
+    },
+    {
+      "id": "safe_small",
+      "name": "Safe, small",
+      "category": "misc",
+      "volume_m3": 0.15,
+      "weight_class": "specialist",
+      "disassembly": false,
+      "fragile": false,
+      "is_storage": false
+    }
+  ]
+}
